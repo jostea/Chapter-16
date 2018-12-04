@@ -20,6 +20,5 @@ public class PreorityQueue {
         Queue<Double> queue2 = new PriorityQueue<>(arr.size(),Collections.reverseOrder());
         queue2.addAll(arr);
         System.out.println(queue2);
-
     }
 }
